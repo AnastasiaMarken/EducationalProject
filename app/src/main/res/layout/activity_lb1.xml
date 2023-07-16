@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".LB1Activity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginHorizontal="20dp"
+		android:layout_marginTop="20dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/lb1_title"
+			android:textAppearance="@style/TextTitleStyle" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/fio"
+			android:textAppearance="@style/TextFIOStyle"
+			android:layout_marginTop="5dp"/>
+
+		<EditText
+			android:id="@+id/lb1_et_num_1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:hint="@string/lb1_edit_hint"
+			android:autofillHints="@string/lb1_edit_hint"
+			android:inputType="numberDecimal"
+			style="@style/EditTextStyle"/>
+
+		<EditText
+			android:id="@+id/lb1_et_num_2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:hint="@string/lb1_edit_hint"
+			android:autofillHints="@string/lb1_edit_hint"
+			android:inputType="numberDecimal"
+			style="@style/EditTextStyle"/>
+
+		<TextView
+			android:id="@+id/lb1_tv_result"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"
+			android:text="@string/lb1_no_result"
+			android:textAppearance="@style/TextMainStyle" />
+
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/lb1_btn_sum"
+		style="@style/ButtonMainStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="60dp"
+		android:layout_marginBottom="30dp"
+		android:text="@string/lb1_summ"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

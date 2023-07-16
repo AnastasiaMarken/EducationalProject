@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ButtonMainStyle">
+		<item name="android:backgroundTint">@color/brown_light</item>
+		<item name="cornerRadius">15dp</item>
+		<item name="android:textAppearance">@style/TextButtonMainStyle</item>
+		<item name="android:paddingVertical">10dp</item>
+		<item name="android:paddingHorizontal">20dp</item>
+	</style>
+
+	<style name="TextButtonMainStyle">
+		<item name="android:textColor">@color/light</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+
+	<style name="TextMainStyle">
+		<item name="android:textColor">@color/dark</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+
+	<style name="TextMain2Style" parent="TextMainStyle">
+		<item name="android:textSize">22sp</item>
+	</style>
+
+	<style name="TextMain2BrownStyle" parent="TextMain2Style">
+		<item name="android:textColor">@color/brown_light</item>
+	</style>
+
+	<style name="TextTitleStyle">
+		<item name="android:textColor">@color/dark</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">32sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="TextFIOStyle">
+		<item name="android:textColor">@color/dark_light</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="EditTextStyle">
+		<item name="backgroundTint">@color/green</item>
+		<item name="colorAccent">@color/white</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/dark</item>
+		<item name="android:textColorHint">@color/dark_light</item>
+	</style>
+</resources>
